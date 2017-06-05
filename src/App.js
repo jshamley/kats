@@ -25,7 +25,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <h1>KATS</h1>
-          <h3>We love 'em because they hate us</h3>
+          <h3>Everything you need for your Kat book report in one place.</h3>
         </div>
         <div className="site-content">
           <Navigation callback={this.navigationChange} />
@@ -37,7 +37,9 @@ class App extends Component {
               <Pop />
             }
           </div>
-          
+        </div>
+        <div className="site-footer">
+          <h4>Come back later today for updates!</h4>
         </div>        
       </div>
     );
