@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Navigation extends Component {
+class ImageGallery extends Component {
   render() {
     return (
-      <div className="nav">
+      <div className="image-gallery">
         {/* nav here */}
       </div>
     );
   }
 }
 
-export default Navigation;
+export default ImageGallery;
