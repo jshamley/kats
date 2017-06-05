@@ -5,12 +5,12 @@ body {
 }
 
 .site-content {
-  padding: 2rem 0 6rem;
+  padding: 2rem 0 8rem;
   min-height: 500px;
   overflow: hidden;
 }
 
-.site-content .nav {
+.nav {
   box-sizing: border-box;
   float: left;
   padding: 0 1rem;
