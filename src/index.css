@@ -5,7 +5,9 @@ body {
 }
 
 .site-content {
-  padding-top: 2rem;
+  padding: 2rem 0 6rem;
+  min-height: 500px;
+  overflow: hidden;
 }
 
 .site-content .nav {

@@ -10,7 +10,7 @@ class Navigation extends Component {
       <div className="nav">
         <ul>
           <li onClick={() => callback('home')}>HOME</li>
-          <li onClick={() => callback('image')}>IMAGE GALLERY</li>
+          {/*<li onClick={() => callback('image')}>IMAGE GALLERY</li>*/}
           <li onClick={() => callback('pop')}>IN THE WILD</li>
         </ul>
       </div>
