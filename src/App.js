@@ -1,7 +1,25 @@
 import React, { Component } from 'react';
+import Navigation from './components/Navigation/Navigation';
+import Home from './components/Home/Home';
+import Pop from './components/Pop/Pop';
 import './App.css';
 
 class App extends Component {
+  constructor (props) {
+    super(props);
+    this.navigationChange = this.navigationChange.bind(this);
+    this.state = {
+      currentPage: 'home'
+    }
+  }
+
+  navigationChange (page) {
+    console.log(page);
+    if (this.state.currentPage === page) return;
+
+    this.setState({ currentPage: page });
+  }
+
   render() {
     return (
       <div className="App">
@@ -10,13 +28,16 @@ class App extends Component {
           <h3>We love 'em because they hate us</h3>
         </div>
         <div className="site-content">
-          <img src={"/assets/Garfield.png"} alt="Garfield" className="intro-img" />
-          <div className="intro-text">
-            <p>We’re excited you’re here to celebrate our friend the Kat!</p>
-            <p>Our vision is to be the home for all of your Kat resources for fans, owners, and those that are curious…like Kats.</p>
-
-            <h4>Come back later today for updates!</h4>
+          <Navigation callback={this.navigationChange} />
+          <div className="content">
+            {this.state.currentPage === 'home' && 
+              <Home />
+            }
+            {this.state.currentPage === 'pop' && 
+              <Pop />
+            }
           </div>
+          
         </div>        
       </div>
     );
