@@ -47,7 +47,7 @@ class App extends Component {
           </div>
         </div>
         <div className="site-footer">
-          <h4>Come back later today for updates!</h4>
+          <h4><span onClick={() => this.navigationChange('contact')} className="link">Contact Us</span> if you don’t see what you need for your book report!</h4>
         </div>        
       </div>
     );
