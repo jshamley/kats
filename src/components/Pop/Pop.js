@@ -11,23 +11,23 @@ class Pop extends Component {
           </p>
           <h4>Movies</h4>
           <p>
-            <a href="http://www.imdb.com/title/tt0356634/" target="_blank">Garfield 2004</a>
+            <a href="http://www.imdb.com/title/tt0356634/" rel="noopener noreferrer" target="_blank">Garfield 2004</a>
           </p>
           <h4>Books</h4>
           <p>
-            <a href="https://www.amazon.com/Cat-Hat-Book-CD/dp/0375834923" target="_blank">Cat in the Hat</a>
+            <a href="https://www.amazon.com/Cat-Hat-Book-CD/dp/0375834923" rel="noopener noreferrer" target="_blank">Cat in the Hat</a>
           </p>
           <h4>Documentaries</h4>
           <p>
-            <a href="https://www.youtube.com/watch?v=CEUW0B2ijCQ" target="_blank">Egyptian Cats</a>
+            <a href="https://www.youtube.com/watch?v=CEUW0B2ijCQ" rel="noopener noreferrer" target="_blank">Egyptian Cats</a>
           </p>
           <h4>Articles</h4>
           <p>
-            <a href="http://pets.thenest.com/allergy-hairless-cat-9980.html" target="_blank">Hairless Cats and Allergies</a>
+            <a href="http://pets.thenest.com/allergy-hairless-cat-9980.html" rel="noopener noreferrer" target="_blank">Hairless Cats and Allergies</a>
           </p>
           <h4>Misrepresentation</h4>
           <p>Cats do not poop rainbows</p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/QH2-TGUlwu4" frameborder="0" allowfullscreen></iframe>
+          <iframe title="cat poop" width="560" height="315" src="https://www.youtube.com/embed/QH2-TGUlwu4" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     );
