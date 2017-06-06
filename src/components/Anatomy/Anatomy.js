@@ -17,8 +17,10 @@ class Anatomy extends Component {
             </ul>
             <h3> Did You Know?</h3>
              <ul>
-            
+  
               <li>Cats have over one hundred vocal sounds, while dogs only have about ten</li>
+              <li>Cats are pure carnivores. They need a high level of protein in their diets – around 30%</li>
+              <li>Cats have five toes on each front paw, but only four toes on each back paw.</li>
             </ul>
         </div>
       </div>
