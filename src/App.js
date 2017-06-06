@@ -24,6 +24,7 @@ class App extends Component {
 
   render() {
     return (
+      
       <div className="App">
         <Navigation callback={this.navigationChange} />
         <div className="content-wrapper">
