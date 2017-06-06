@@ -15,6 +15,11 @@ class Anatomy extends Component {
             <li>Breathes using typical mamillian lung structure.</li>
             <li>Average lifespan of 12-15 years in captivity, 4-5 years in the wild.</li>
             </ul>
+            <h3> Did You Know?</h3>
+             <ul>
+            
+              <li>Cats have over one hundred vocal sounds, while dogs only have about ten</li>
+            </ul>
         </div>
       </div>
     );
