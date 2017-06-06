@@ -6,9 +6,7 @@ body {
 }
 
 .site-content {
-  padding: 2rem 1rem 8rem;
-  max-height: calc(100vh - 200px);
-  overflow: scroll;
+  padding: 2rem 1rem;
 }
 
 .nav {
@@ -24,6 +22,8 @@ body {
 .content-wrapper {
   box-sizing: border-box;
   float: right;
+  max-height: calc(100vh - 40px);
+  overflow: scroll;
   width: 80%;
 }
 
