@@ -14,6 +14,8 @@ class Navigation extends Component {
           <li onClick={() => callback('pop')}>IN THE WILD</li>
           <li onClick={() => callback('anatomy')}>ANATOMY & BIOLOGY</li>
           <li onClick={() => callback('booby')}>Booby</li>
+          <li onClick={() => callback('panda')}>Red Panda</li>
+          <li onClick={() => window.location = 'http://ux.healthgrades.com/testing/dancingpandas/index.html'}>Dancing Panda</li>
         </ul>
       </div>
     );

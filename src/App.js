@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 import Anatomy from './components/Anatomy/Anatomy';
 import Contact from './components/Contact/Contact';
 import Pop from './components/Pop/Pop';
+import RedPanda from './RedPanda/RedPanda';
 import './App.css';
 
 class App extends Component {
@@ -22,8 +23,7 @@ class App extends Component {
   }
 
   render() {
-    return (
-      
+    return (        
       <div className="App">
         <Navigation callback={this.navigationChange} />
         <div className="content-wrapper">
@@ -43,6 +43,9 @@ class App extends Component {
             }
             {this.state.currentPage === 'anatomy' && 
               <Anatomy />
+            }
+            {this.state.currentPage === 'panda' &&
+              <RedPanda />
             }
           </div>
         </div>
