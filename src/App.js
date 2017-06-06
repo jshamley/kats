@@ -22,8 +22,10 @@ class App extends Component {
 
   render() {
     return (
+      
       <div className="App">
         <div className="App-header">
+          <link href="https://fonts.googleapis.com/css?family=Butterfly+Kids" rel="stylesheet"/>
           <h1>KATZ</h1>
           <h3>Everything you need for your Kat book report in one place.</h3>
         </div>
