@@ -16,7 +16,6 @@ class App extends Component {
   }
 
   navigationChange (page) {
-    console.log(page);
     if (this.state.currentPage === page) return;
 
     this.setState({ currentPage: page });
